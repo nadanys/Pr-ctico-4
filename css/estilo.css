@@ -1,16 +1,26 @@
+@font-face {
+  font-family: "tahoma";src: url("../fuentes/tahoma.ttf") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 body{ background-color: #FFFDE7; text-align: center;}
 
-
-.imagen {align-content:auto; width:25; height: auto; margin-left: auto;; margin-right: auto;;}
-.estilosubtitulo{font-family:tahoma; font-size: x-large ; background-color: #; color:#4c2b0d;}
+.estilosubtitulo{font-family:"tahoma"; font-size: x-large ; background-color: #; color:#4c2b0d;}
 .estiloparrafo {font-family: tahoma ; font-size: medium ; color: black; font-style: oblique;}
 .estilolista2 {font-family: tahoma ; list-style-position: inside; font-size: medium ; align-content: flex-start; color: black;}
-header {font-family: times; font-size:  xx-large ; text-align: center; background-color: #FAD7A0; color: #4c2b0d;  clear: both;
-float: none;}
+header {font-family: 'Fruktur', cursive;
+  font-size:  2vw ;
+   text-align: center;
+   background-color: #FAD7A0;
+   background-size: 3vh; background-size: 100vw;
+    color: #4c2b0d;
+    clear: both;
+       float: none;}
 h1:hover{background-color:#F9E79F; }
 
  section img:hover {
   width: 25%;  }
+  section .imagen { width: 15vw; }
 
 nav p {font-family: Lucida; font-size: large ; color:#4c2b0d; font-style: normal; }
 li::before{content:'-'}
